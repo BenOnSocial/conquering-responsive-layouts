@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --clr-dark: #23424a;
+    --clr-white: #fff;
+    --clr-accent: #38CFD9;
+    --clr-black: #072A2D;
+
+    --fs-400: 1.3rem;
+    --fs-700: 1.3rem;
+    --fs-900: 3rem;
+
+    --ff-sans-normal: "Roboto", sans-serif;
+    --gap: 2rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+    font-family: var(--ff-sans-normal);
+    margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+h1 {
+    font-size: var(--fs-900);
+    font-weight: 900;
+}
+
+p {
+    font-size: var(--fs-400);
+    font-weight: 400;
+}
+
+hgroup {
+    border: solid 1px green;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr);
+    gap: var(--gap);
+}
+
+.grid {
+    display: grid;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 60vh;
+    padding-inline: 8vw;
+    align-items: center;
+}
+
+button {
+    font-family: var(--ff-sans-normal);
+    font-weight: 700;
+    font-size: --fs-700;
+    text-transform: uppercase;
+    border-radius: 3em;
+    border: 0;
+    padding: 1em 3em;
+    width: fit-content
+}
+
+
+.bg-dark {
+    background-color: var(--clr-dark);
+}
+
+.bg-accent {
+    background-color: var(--clr-accent);
+}
+
+.bg-white {
+    background-color: var(--clr-white);
+}
+
+.text-dark {
+    color: var(--clr-black);
+}
+
+.text-accent {
+    color: var(--clr-accent);
+}
+
+.text-white {
+    color: var(--clr-white);
+}
