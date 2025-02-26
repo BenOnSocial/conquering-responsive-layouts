@@ -35,7 +35,7 @@ body {
 
 header {
     background: #136c72;
-    padding: 0.5em 0;
+    padding: 1em 0;
 }
 
 .nav__list {
@@ -43,7 +43,6 @@ header {
     justify-content: right;
     gap: 2em;
     margin: 0;
-    padding: .5em 2em;
     list-style: none;
 }
 
